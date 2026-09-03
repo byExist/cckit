@@ -1,0 +1,8 @@
+{
+  "name": "prose",
+  "version": "0.10.0",
+  "description": "Prose revision skills — /korean rewrites Korean to read as natively written, /prune trims what the reader does not need",
+  "author": {
+    "name": "byExist"
+  }
+}
