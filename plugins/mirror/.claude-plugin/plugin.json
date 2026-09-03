@@ -1,0 +1,8 @@
+{
+  "name": "mirror",
+  "version": "0.1.0",
+  "description": "Remind the agent to keep instruction files (CLAUDE.md, SKILL.md, ...) in sync with their user-language mirrors",
+  "author": {
+    "name": "byExist"
+  }
+}
