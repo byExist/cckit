@@ -1,0 +1,29 @@
+{
+  "name": "cckit",
+  "owner": {
+    "name": "byExist"
+  },
+  "description": "Shared Claude Code plugin toolkit — one plugin per independently toggleable behavior",
+  "plugins": [
+    {
+      "name": "mdlint",
+      "source": "./plugins/mdlint",
+      "description": "Lint markdown files with markdownlint-cli2 after every edit, report-only"
+    },
+    {
+      "name": "lab",
+      "source": "./plugins/lab",
+      "description": "Harness experimentation tools — /bench runs variants of skills, hooks, agents, and prompts in isolation, measuring size delta, tokens, time, and cost"
+    },
+    {
+      "name": "prose",
+      "source": "./plugins/prose",
+      "description": "Prose revision skills — /korean rewrites Korean to read as natively written, /prune trims what the reader does not need"
+    },
+    {
+      "name": "mirror",
+      "source": "./plugins/mirror",
+      "description": "Remind the agent to keep instruction files (CLAUDE.md, SKILL.md, ...) in sync with their user-language mirrors"
+    }
+  ]
+}
