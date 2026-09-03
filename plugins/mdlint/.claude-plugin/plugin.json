@@ -1,0 +1,8 @@
+{
+  "name": "mdlint",
+  "version": "0.1.0",
+  "description": "Lint markdown files with markdownlint-cli2 after every edit, report-only",
+  "author": {
+    "name": "byExist"
+  }
+}
