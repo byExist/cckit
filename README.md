@@ -5,6 +5,7 @@ Claude Code 플러그인 마켓플레이스입니다.
 ## 플러그인 목록
 
 - [mdlint](plugins/mdlint/README.md): md 파일 편집 직후 markdownlint-cli2로 lint하고 결과를 에이전트에게 리포트 (report-only)
+- [mirror](plugins/mirror/README.md): 지침 파일(`CLAUDE.md`, `SKILL.md` 등)이 편집되면 사용자 언어 번역본과 동기화하라고 에이전트에게 알림 (report-only)
 - [prose](plugins/prose/README.md): 쓴 글을 고치는 스킬 — `/korean`은 산출물의 한국어를 처음부터 한국어로 쓴 글처럼 다시 쓰고, `/prune`은 독자에게 불필요한 내용을 덜어낸다
 - [lab](plugins/lab/README.md): 하네스 실험 도구 — `/bench`가 스킬·훅·에이전트·프롬프트의 변형을 요소별 플레이북에 따라 격리 실행해 크기 변화·토큰·시간·비용을 계측한다
 
