@@ -1,0 +1,8 @@
+{
+  "name": "lab",
+  "version": "0.2.0",
+  "description": "Harness experimentation tools — /bench runs variants of skills, hooks, agents, and prompts in isolation, measuring size delta, tokens, time, and cost",
+  "author": {
+    "name": "byExist"
+  }
+}
